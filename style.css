@@ -1,0 +1,46 @@
+.sec{
+    background-color: #918c8c !important;
+    height: 100vh;
+    margin: 0;
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main{
+    width: 50%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+label{
+    font-size: 20px;
+    width: 50% !important;
+}
+
+input,select{
+    width: 50%;
+    height: 30px;
+}
+
+#convert-button{
+    margin-top: 30px;
+    width: 70%;
+    height: 40px;
+    color: black;
+    font-size: large;
+}
+
+#output{
+    font-size: x-large;
+    font-weight: bold;
+
+}
